@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -45,9 +45,9 @@ function Square(props) {
         const winner = calculateWinner(this.state.squares);
         let status;
           if (winner){
-              status = 'Winner:' + winner;
+              status = 'Vencedor: ' + winner;
           } else{
-              status = 'Next player:' +(this.state.xIsNext ?'X':'O');
+              status = 'Próximo jogador: ' +(this.state.xIsNext ?'X':'O');
           } 
   
       return (

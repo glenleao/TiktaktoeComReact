@@ -1,5 +1,5 @@
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
+    font: 18px "Segoe UI";
     margin: 20px;
   }
   
@@ -18,18 +18,18 @@ body {
   }
   
   .square {
-    background: #fff;
-    border: 1px solid rgb(134, 132, 158);
+    background: rgb(255, 201, 201);
+    border: 2px solid rgb(255, 255, 255);
     float: left;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 64px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 64px;
   }
   
   .square:focus {
